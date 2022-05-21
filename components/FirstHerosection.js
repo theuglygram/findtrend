@@ -82,7 +82,7 @@ const Wrapper = styled.div`
   @media only screen and (max-width: 660px) {
     height: 100vh;
   }
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 375px) {
     height: 130vh;
   }
 `;
