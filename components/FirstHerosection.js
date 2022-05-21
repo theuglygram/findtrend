@@ -80,10 +80,10 @@ const Wrapper = styled.div`
     height: 70vh;
   }
   @media only screen and (max-width: 660px) {
-    height: 100vh;
+    height: 85vh;
   }
-  @media only screen and (max-width: 365px) {
-    height: 115vh;
+  @media only screen and (max-width: 465px) {
+    height: 100vh;
   }
 `;
 const ContentWrapper = styled.div`
