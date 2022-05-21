@@ -82,6 +82,9 @@ const Wrapper = styled.div`
   @media only screen and (max-width: 660px) {
     height: 100vh;
   }
+  @media only screen and (max-width: 360px) {
+    height: 130vh;
+  }
 `;
 const ContentWrapper = styled.div`
   margin: 100px 0 0;
