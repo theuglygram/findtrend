@@ -82,8 +82,8 @@ const Wrapper = styled.div`
   @media only screen and (max-width: 660px) {
     height: 100vh;
   }
-  @media only screen and (max-width: 375px) {
-    height: 130vh;
+  @media only screen and (max-width: 365px) {
+    height: 115vh;
   }
 `;
 const ContentWrapper = styled.div`
@@ -185,9 +185,9 @@ const ImageOne = styled.div`
   @media only screen and (max-width: 660px) {
     left: unset;
     bottom: unset;
-    img {
+    span span img {
       transform: rotate(-10deg);
-      width: 250px;
+      width: 250px !important;
     }
   }
 `;
@@ -202,8 +202,8 @@ const ImageTwo = styled.div`
   @media only screen and (max-width: 660px) {
     top: unset;
     right: unset;
-    img {
-      width: 250px;
+    span span img {
+      width: 250px !important;
     }
   }
 `;
@@ -217,8 +217,8 @@ const ImageThree = styled.div`
   @media only screen and (max-width: 660px) {
     top: unset;
     right: unset;
-    img {
-      width: 250px;
+    span span img {
+      width: 250px !important;
     }
   }
 `;
@@ -233,8 +233,8 @@ const ImageFour = styled.div`
   @media only screen and (max-width: 660px) {
     right: unset;
     bottom: unset;
-    img {
-      width: 250px;
+    span span img {
+      width: 250px !important;
     }
   }
 `;
