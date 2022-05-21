@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/dist/client/image";
 
 const SecondHero = () => {
   return (
@@ -8,13 +9,28 @@ const SecondHero = () => {
         <ContentWrapper>
           <Title>Open new tabs is sh*t</Title>
           <CardWrapper>
-            <img src="../images/svgs/solution.svg" />
+            <Image
+              width={200}
+              height={100}
+              src="/images/svgs/solution.svg"
+              alt="solution"
+            />
 
             <CardWrap>
-              <img src="../images/svgs/tab5.svg" />
+              <Image
+                width={400}
+                height={100}
+                src="/images/svgs/tab5.svg"
+                alt="solution"
+              />
             </CardWrap>
 
-            <img src="../images/svgs/tab.svg" />
+            <Image
+              width={200}
+              height={100}
+              src="/images/svgs/tab.svg"
+              alt="solution"
+            />
           </CardWrapper>
 
           <Desc>

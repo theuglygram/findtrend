@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/dist/client/image";
 
 function FourthHero() {
   return (
@@ -10,9 +11,24 @@ function FourthHero() {
           <Logos></Logos>
         </TopHeader>
         <Tweets>
-          <img src="../images/pngs/tweet_1.png" alt="tweet" />
-          <img src="../images/pngs/tweet_2.png" alt="tweet" />
-          <img src="../images/pngs/tweet_3.png" alt="tweet" />
+          <Image
+            width={1600}
+            height={548}
+            src="/images/pngs/tweet_1.png"
+            alt="tweet"
+          />
+          <Image
+            width={1600}
+            height={1608}
+            src="/images/pngs/tweet_2.png"
+            alt="tweet"
+          />
+          <Image
+            width={1600}
+            height={548}
+            src="/images/pngs/tweet_3.png"
+            alt="tweet"
+          />
         </Tweets>
 
         <TrendBtn>View More Trend</TrendBtn>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
+import Image from "next/dist/client/image";
 
 const FirstHerosection = () => {
   return (
@@ -20,22 +21,47 @@ const FirstHerosection = () => {
 
             <ContactWrapper>
               <StartBtn>Get Started 🔥</StartBtn>
-              <img src="../images/svgs/img_hero.svg" alt="research" />
+              <Image
+                width={100}
+                height={100}
+                src="/images/svgs/img_hero.svg"
+                alt="research"
+              />
             </ContactWrapper>
           </HeroContainer>
 
           <ImagesWrapper>
             <ImageOne>
-              <img src="../images/svgs/tab1.svg" alt="tab" />
+              <Image
+                width={400}
+                height={100}
+                src="/images/svgs/tab1.svg"
+                alt="tab"
+              />
             </ImageOne>
             <ImageTwo>
-              <img src="../images/svgs/tab2.svg" alt="tab" />
+              <Image
+                width={400}
+                height={100}
+                src="/images/svgs/tab2.svg"
+                alt="tab"
+              />
             </ImageTwo>
             <ImageThree>
-              <img src="../images/svgs/tab3.svg" alt="tab" />
+              <Image
+                width={400}
+                height={100}
+                src="/images/svgs/tab3.svg"
+                alt="tab"
+              />
             </ImageThree>
             <ImageFour>
-              <img src="../images/svgs/tab4.svg" alt="tab" />
+              <Image
+                width={400}
+                height={100}
+                src="/images/svgs/tab4.svg"
+                alt="tab"
+              />
             </ImageFour>
           </ImagesWrapper>
         </ContentWrapper>
@@ -128,11 +154,12 @@ const ContactWrapper = styled.div`
   align-items: center;
   justify-content: center;
   @media only screen and (max-width: 765px) {
-    img {
-      display: none;
+    span {
+      display: none !important;
     }
   }
 `;
+
 const ImagesWrapper = styled.div`
   display: flex;
   margin: 50px auto;

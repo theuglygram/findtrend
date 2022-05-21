@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Image from "next/image";
 import styled from "styled-components";
 
 function Navbar() {
@@ -13,7 +13,12 @@ function Navbar() {
       <Wrapper>
         <NavWrapper>
           <LogoHolder>
-            <img src="../images/svgs/logo.svg" />
+            <Image
+              src="/images/svgs/logo.svg"
+              height={150}
+              width={150}
+              alt="logo"
+            />
           </LogoHolder>
 
           <NavLinkWrapper toggle={menu}>
@@ -54,6 +59,10 @@ const NavWrapper = styled.div`
 `;
 const LogoHolder = styled.div`
   z-index: 999;
+  Image {
+    width: 200px;
+    height: 200px;
+  }
 `;
 const Logo = styled.img``;
 const NavLinkWrapper = styled.div`

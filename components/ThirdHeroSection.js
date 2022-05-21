@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/dist/client/image";
 
 const ThirdHeroSection = () => {
   return (
@@ -9,16 +10,20 @@ const ThirdHeroSection = () => {
           <TitleWrapper>
             <Dark>
               Findtrend helps you to increase your productivity and reduce your
-              computer's memory load,
+              computer memory load,
             </Dark>
             <Light>
-              {" "}
               an application that can fulfill your daily browsing needs.
             </Light>
           </TitleWrapper>
 
           <DarkTitle>Findtrend make +1000 Startup grow</DarkTitle>
-          <img src="../images/pngs/brand_bg.png" alt="brands logo" />
+          <Image
+            width={2168}
+            height={996}
+            src="/images/pngs/brand_bg.png"
+            alt="brands logo"
+          />
         </HeroWrapper>
       </Wrapper>
     </>

@@ -1,12 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/dist/client/image";
 function Footer() {
   return (
     <Wrapper>
       <FooterContent>
         <Logo>
-          {" "}
-          <img src="../images/svgs/blacklogo.svg" />
+          <Image
+            width={150}
+            height={150}
+            src="/images/svgs/blacklogo.svg"
+            alt="logo"
+          />
         </Logo>
         <Links>
           <ListItems>Privacy Policy</ListItems>
