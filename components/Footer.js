@@ -46,6 +46,7 @@ const Links = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-inline-start: unset;
   @media only screen and (max-width: 765px) {
     flex-direction: column;
   }
