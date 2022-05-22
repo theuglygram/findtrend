@@ -74,27 +74,12 @@ export default FirstHerosection;
 
 const Wrapper = styled.div`
   background: #000;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  @media only screen and (max-width: 1024px) {
-    height: 70vh;
-  }
-  @media only screen and (max-width: 660px) {
-    height: 85vh;
-  }
-  @media only screen and (max-width: 400px) {
-    height: 100vh;
-  }
 `;
 const ContentWrapper = styled.div`
-  margin: 100px 0 0;
-  padding: 0 20px;
-  @media only screen and (max-width: 768px) {
-    margin: 30px 0 0;
-  }
-  @media only screen and (max-width: 375px) {
-    margin: 10px 0 0;
-  }
+  margin: 0 auto;
+  padding: 30px 20px 60px;
 `;
 
 const HeroContainer = styled.div`
@@ -165,7 +150,7 @@ const ContactWrapper = styled.div`
 
 const ImagesWrapper = styled.div`
   display: flex;
-  margin: 50px auto;
+  margin: 50px auto 0;
   align-items: center;
   justify-content: center;
 
