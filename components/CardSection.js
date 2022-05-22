@@ -360,11 +360,8 @@ const CardContent = styled.div`
   border-radius: 16px;
   padding: 32px;
   position: relative;
-  width: 360px;
+  width: 100%;
 
-  @media only screen and (max-width: 375px) {
-    width: 280px;
-  }
   :hover {
     background: #a8ff35;
   }
